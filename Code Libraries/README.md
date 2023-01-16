@@ -20,7 +20,7 @@ BONUS: Get astro data for a specific location
 ```bash
 python get_astro_data.py --lat "latitude" --long "longitude" --elev "elevation" --date "year-month-day" --file "file_name" --append-file
 ```
-The option ```bash --append-file``` is to be used when you want to add to an existing file new information
+The option ```--append-file``` is to be used when you want to add to an existing file new information
 
 4. Historical data
 ```bash
