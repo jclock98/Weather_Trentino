@@ -1,2 +1,3 @@
-This folder collects all the code libraries produced and/or adopted, during the KDI project to manage dta and knowledge resources.
-(i.e., Pyhton libs, Shell scripts, Javascript, etc)
+version https://git-lfs.github.com/spec/v1
+oid sha256:070732845352fdbdeabccf14697eeddddebdc83299847564d27e182f86e17789
+size 183
