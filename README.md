@@ -1,18 +1,20 @@
 # Trentino Weather
 *A KGE Project’s Website*
+
 by **Giacomo Lazzerini** and **Jacopo Clocchiatti**
 
 Academic year **2022/2023**, 
 **University of Trento**
 
 link: [Official Course Website](https://unitn-knowledge-graph-engineering.github.io/KGE2022-website/)
+
 link: [Project Repository](https://github.com/jclock98/Weather_Trentino)
 
 ## Introduction
 
 Weather influences many aspects of our lives. In the past, knowing the meteorological status and its possible changes over time was vital for agriculture, transportation, and even the culture of many communities. Today, weather is still very important, and it can significantly impact everyday life. Modern technologies, measurement techniques, and climatology studies allowed reaching such high levels of accuracy to predict the future often correctly. From knowing if to bring the umbrella with you before going outside, knowing if the next weekend will be a good day for a picnic, or being able to monitor atmospheric conditions remotely, the weather has always played a crucial role in human beings' life.
 
-Our resource can be seen not only as an alternative to already existing and largely used weather services but also as a resource specifically created for Trentino Region, a service that can give information about the future (forecasts) but also about the present (meteorological station measurements) and past (historical data). In this resource, we integrated the chance to explore historical data and to know astronomical features available on a daily basis. We believe that enriching the experience with new ETypes can open new usage opportunities to a category of personas not considered so far. \\\\
+Our resource can be seen not only as an alternative to already existing and largely used weather services but also as a resource specifically created for Trentino Region, a service that can give information about the future (forecasts) but also about the present (meteorological station measurements) and past (historical data). In this resource, we integrated the chance to explore historical data and to know astronomical features available on a daily basis. We believe that enriching the experience with new ETypes can open new usage opportunities to a category of personas not considered so far.
 
 In this project, we used weather data from Trento province to build a Knowledge Graph (KG). This has been possible using the iTelos methodology. iTelos is a phase-based methodology that allows the implementation of a KGE process.
 
@@ -56,18 +58,27 @@ Servizio Prevenzione Rischi is the author of all these datasets and is responsib
 
 ## ER Diagram and ETG
 
-The following graph shows the structure of our resource. More details available at the official repository of the project
+The following graph shows the structure of our resource. (More details available at the official repository of the project)
 
-__insert image here__ 
+9 classes and 49 properties (written between the parentheses):
+- **Locality** (*name, municipality, latitude, longitude, elevation*)
+- **Weather Station** (*name, latitude, longitude, elevation, is_active*)
+- **Weather Measurement** (*date, type, value, measurement unit*)
+- **Weather Report** (*date*)
+- **Daily Weather Report** (*date, max_temperature, min_temperature*)
+
+- **Astronomical  Status**  (*sunrise,  sunset,  moon_phase, astronomical_dusk,  astronomi- cal_dawn, nautical_dusk, nautical_dawn, civil_dusk, civil_dawn, galactic_centre_sunrise, galactic_centre_sunset*)
+- **Weather       Report       Time       Section**       (*time_section_slot, time_section_hour, time_section_description*)
+- **Weather Forecast** (*type, value, description)*
+- **Historical    Weather    Archive    Data**    (*date,     avg_temperature, min_temperature, max_temperature,   dew_point_temperature, rain_precipitation,   avg_preassure,   preas- sure_asl, avg_wind_speed,   max_wind_speed,   wind_gust_speed,   perceived_humidity, visibility, phenomena*)
+
+| ![ER](Teleologies/Informal%20Modeling/Weather_Trentino-3v1-ER-diagram.png) | 
+|:--:| 
+| *ER Diagram* |
+
 
 ## Data Integration
 
 ### [Annotated ETG](https://github.com/jclock98/Weather_Trentino/blob/main/Teleologies/Formal%20Modeling/Annotated-ETG.owl)
 
-### Final KG
-
-And this will produce a flow chart:
-
-version https://git-lfs.github.com/spec/v1
-oid sha256:e45c3295f3529fafb676cb696196b5203e6d657b167257b03567b3c579a256c6
-size 118
+### [Final KG](https://github.com/jclock98/Weather_Trentino/tree/main/Datasets/Data%20Integration)
