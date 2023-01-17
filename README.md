@@ -1,5 +1,5 @@
 # Trentino Weather
-*A KGE Project’s Website*
+*A KGE Project’s* [Website](https://jclock98.github.io/Weather_Trentino/)
 
 by **Giacomo Lazzerini** and **Jacopo Clocchiatti**
 
@@ -11,6 +11,8 @@ link: [Official Course Website](https://unitn-knowledge-graph-engineering.github
 link: [Project Repository](https://github.com/jclock98/Weather_Trentino)
 
 link: [Project Report](Documentation/KGE_2022_Trentino_Weather_Lazzerini_Clocchiatti.pdf)
+
+link: [Project Slides](Documentation/Trentino%20Weather.pptx)
 
 ## Introduction
 
