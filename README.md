@@ -10,6 +10,8 @@ link: [Official Course Website](https://unitn-knowledge-graph-engineering.github
 
 link: [Project Repository](https://github.com/jclock98/Weather_Trentino)
 
+link: [Project Report](Documentation/KGE_2022_Trentino_Weather_Lazzerini_Clocchiatti.pdf)
+
 ## Introduction
 
 Weather influences many aspects of our lives. In the past, knowing the meteorological status and its possible changes over time was vital for agriculture, transportation, and even the culture of many communities. Today, weather is still very important, and it can significantly impact everyday life. Modern technologies, measurement techniques, and climatology studies allowed reaching such high levels of accuracy to predict the future often correctly. From knowing if to bring the umbrella with you before going outside, knowing if the next weekend will be a good day for a picnic, or being able to monitor atmospheric conditions remotely, the weather has always played a crucial role in human beings' life.
@@ -58,7 +60,7 @@ Servizio Prevenzione Rischi is the author of all these datasets and is responsib
 
 ## ER Diagram and ETG
 
-The following graph shows the structure of our resource. (More details available at the official repository of the project)
+The following diagram shows the structure of our resource. (More details available at the official repository of the project)
 
 9 classes and 49 properties (written between the parentheses):
 - **Locality** (*name, municipality, latitude, longitude, elevation*)
