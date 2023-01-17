@@ -72,9 +72,16 @@ The following graph shows the structure of our resource. (More details available
 - **Weather Forecast** (*type, value, description)*
 - **Historical    Weather    Archive    Data**    (*date,     avg_temperature, min_temperature, max_temperature,   dew_point_temperature, rain_precipitation,   avg_preassure,   preas- sure_asl, avg_wind_speed,   max_wind_speed,   wind_gust_speed,   perceived_humidity, visibility, phenomena*)
 
+
 | ![ER](Teleologies/Informal%20Modeling/Weather_Trentino-3v1-ER-diagram.png) | 
 |:--:| 
 | *ER Diagram* |
+
+Annotated ETG             |  Data Properties
+:-------------------------:|:-------------------------:
+![Annotated ETG](Teleologies/Formal%20Modeling/annotated%20etg.PNG)  |  ![Data Properties](Teleologies/Formal%20Modeling/etg%20data%20properties.PNG)
+
+*Final ETG*
 
 
 ## Data Integration
