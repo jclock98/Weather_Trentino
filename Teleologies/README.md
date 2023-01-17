@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e5987faa962724450c5552efa3507ae1cd39e3d401351a3a996fdfd71a5da321
-size 304
+This folder collects all the Knowledge resources and Teleologies collected, managed and produced (ETG) during the KDI project.
+
+This kind of resources are organized by methodology phase, where each phase-folder contains the knowledge resources and/or teleologies considered in the relative iTelos phase.
