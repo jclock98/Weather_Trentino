@@ -62,7 +62,7 @@ __insert image here__
 
 ## Data Integration
 
-### Annotated ETG
+### [Annotated ETG](https://github.com/jclock98/Weather_Trentino/blob/main/Teleologies/Formal%20Modeling/Annotated-ETG.owl)
 
 ### Final KG
 
